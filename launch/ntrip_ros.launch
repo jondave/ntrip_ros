@@ -3,11 +3,10 @@
 <launch>
   <node pkg="ntrip_ros" type="ntripclient.py" name="ntrip_ros" output="screen">
  	 <param name="rtcm_topic" value="/rtcm"/>
- 	 <param name="ntrip_server" value="URL:PORT"/>
- 	 <param name="ntrip_user" value="USER"/>
- 	 <param name="ntrip_pass" value="PASS"/>
- 	 <param name="ntrip_stream" value="MOUNTPOINT"/>
- 	 <param name="nmea_gga" value="$GPGGA,..."/>
+ 	 <param name="ntrip_server" value="rtk2go.com:2101"/>
+ 	 <param name="ntrip_user" value="jcox@lincoln.ac.uk"/>
+ 	 <param name="ntrip_pass" value="none"/>
+ 	 <param name="ntrip_stream" value="ARL-RTK"/><!-- closest ARL-RTK or ER_Pollybell_1 -->
+ 	 <param name="nmea_gga" value="$GPGGA,143732.378,5313.613,N,00032.879,W,1,12,1.0,0.0,M,0.0,M,,*77"/>
   </node>
 </launch>
-
