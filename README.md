@@ -34,6 +34,8 @@ A similar NTRIP client (may be better than mine) is here: https://github.com/day
 
 ![new ntrip server](https://user-images.githubusercontent.com/6209386/170069278-21925b84-35a1-4cc5-a570-5dce2eb38b5f.jpg)
 
+To use correction data host is server name or Ip address port 2101 and caster name.
+
 
 
 
