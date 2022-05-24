@@ -17,6 +17,8 @@ It may also require this package: https://github.com/tilk/rtcm_msgs
 A similar NTRIP client (may be better than mine) is here: https://github.com/dayjaby/ntrip_ros
 
 # How to setup Septentrio GPS as a base station
+https://customersupport.septentrio.com/s/article/How-to-set-up-an-internal-NTRIP-caster-on-a-Septentrio-receiver
+
 - Log into the web broweser settings page (just enter the ip address in a browser)
 - GNSS > Position - change from Rover to Static
 
