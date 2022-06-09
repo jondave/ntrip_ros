@@ -16,6 +16,15 @@ It may also require this package: https://github.com/tilk/rtcm_msgs
 
 A similar NTRIP client (may be better than mine) is here: https://github.com/dayjaby/ntrip_ros
 
+# RTK2go.com Base Stations
+- Near Splisby - ARL-RTK - Latitude: 53.18 Longitude: 0.03
+- Near Market Rasen - young_f9p - Latitude: 53.43 Longitude: -0.4
+- Near Bawtry - ER_Pollybell_1 - Latitude: 53.43 Longitude: -0.91
+- Near Ely - CresswellFarm - Latitude: 52.4 Longitude: 0.28
+- Near Norwich - NR152QB - Latitude: 52.5 Longitude: 1.25
+
+Connect to rtk2go.com:2101, mount name, user account = email address, password = none
+
 # How to setup Septentrio GPS as a base station
 https://customersupport.septentrio.com/s/article/How-to-set-up-an-internal-NTRIP-caster-on-a-Septentrio-receiver
 
