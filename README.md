@@ -25,6 +25,11 @@ A similar NTRIP client (may be better than mine) is here: https://github.com/day
 
 Connect to rtk2go.com:2101, mount name, user account = email address, password = none
 
+# Septentrio GPS Config Files
+Upload / dowload config files using the Septentrio browser interface under Admin > Configurations
+- Use as a rover on a robot using RTk corrections from RTK2go - ```AsteRx4_3057797 use as a rover with RTK corrections 2022-07-11-130119```
+- Use as a RTK base station publishing RTK correctin data - ```AsteRx4_3057797 use as RTK base station 2022-07-11-125145```
+
 # How to setup Septentrio GPS as a base station
 https://customersupport.septentrio.com/s/article/How-to-set-up-an-internal-NTRIP-caster-on-a-Septentrio-receiver
 
