@@ -1,0 +1,13 @@
+setDataInOut, NTR2, , RTCMv3
+setNtripSettings, NTR1, Client
+setNtripSettings, NTR2, Server
+setNtripSettings, NTR1, , 'rtk2go.com'
+setNtripSettings, NTR2, , 'localhost'
+setNtripSettings, NTR1, , , , 'rlloyd@lincoln.ac.uk'
+setNtripSettings, NTR1, , , , , , 'ARL-RTK'
+setNtripSettings, NTR2, , , , , , 'lcas'
+setNtripCasterMountPoints, MP1, , 'lcas'
+setNtripCasterMountPoints, MP1, , , Yes
+setNtripCasterMountPoints, MP1, , , , , , none
+setNtripCasterMPFormat, MP1, RTCMv3
+setNtripCasterSettings, on
